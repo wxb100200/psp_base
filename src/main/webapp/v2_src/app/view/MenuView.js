@@ -1,0 +1,47 @@
+Ext.define('Base.view.MenuView',{
+    extend:'Ext.panel.Panel',
+    alias:'widget.menuview',
+    layout:'fit',
+    border:false,
+    dockedItems:{
+        xtype:'toolbar',
+        dock:'top',
+        defaults:{
+            width:80
+        },
+        items:[
+            {
+                text:'首页',
+                handler:function(){G.showMainWidget('indexpanel')}
+            },
+            {
+                text:'公告',
+                menu:[
+                    {text:'公告',handler:function(){G.showMainWidget('noticegrid')}},
+                    {text:'会议通知',handler:function(){G.showMainWidget('meetinggrid')}}
+                ]
+            },
+            {
+                text:'账号管理',
+                menu:[
+                    {text:'账号管理',handler:function(){G.showMainWidget('accountgrid')}},
+                    {text:'公司账号管理'},
+                    {text:'系统登录日志'}
+                ]
+            },
+            {
+                text:'供应商管理',
+                width:90,
+                menu:[
+                    {text:'供应商信息',handler:function(){G.showMainWidget('companygrid')}}
+                ]
+            },
+            '->',
+
+            {
+                text:'文档库'
+            }
+        ]
+    }
+
+});

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 宋体, sans-serif, arial;
+    background-image: url(../images/bg.jpg);
+}
+/* 登录页面 */
+#login_top {
+    width: auto;
+    height: 93px;
+    background-image: url(../images/banner_top_bg.gif) ;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+div.login_box
+{
+    width: 550px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left:450px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+div.login_box table
+{
+    width:98%;
+}
+div.login_box table tr td
+{
+    padding-left: 5px;
+    height: 44px;
+}
+td.login_info
+{
+    text-align: right;
+    width: 150px;
+    padding-right: 5px;
+    color:#eee;
+}
+td.login_error_info
+{
+    width:130px;
+}
+td.login_button
+{
+    text-align: left;
+    padding-top: 5px;
+}
+td.login_button img
+{
+    border-width: 0px;
+}
+input.width150
+{
+    height:20px;
+}
+span.required
+{
+    color:#eee;
+}

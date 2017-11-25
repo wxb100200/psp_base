@@ -1,0 +1,31 @@
+.index-grouped-grid .x-toolbar {
+    background: white none;
+    border-top-color: white;
+}
+
+.x-column-header-over .x-column-header-trigger {
+    display:none;  /* 对于有多层表头的，有时会错位。*/
+}
+
+.show-grid-menu .x-column-header-over .x-column-header-trigger {
+    display:block;  /* 对于有多层表头的，有时会错位。但是特殊情况可以通过增加 class: show-grid-menu 放开*/
+}
+.icon-ok {
+    background-image: url(../../images/accept.png) !important;
+}
+.icon-cancel {
+    background-image: url(../../images/cancel.png) !important;
+}
+.icon-user-add {
+    background-image: url(../../images/user_add.png) !important;
+}
+.icon-user-delete {
+    background-image: url(../../images/user_delete.png) !important;
+}
+.icon-user-edit {
+    background-image: url(../../images/user_edit.png) !important;
+}
+
+.icon-find {
+    background-image: url(../../images/find.png) !important;
+}

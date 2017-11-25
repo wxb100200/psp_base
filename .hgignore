@@ -1,0 +1,7 @@
+glob:src/main/webapp/v2
+glob:src/main/webapp/v2_src/ext
+glob:src/main/webapp/v2_src/build
+glob:target
+glob:.idea
+#ora-create.sql
+#ora-drop.sql

@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+src/main/webapp/v2
+src/main/webapp/v2_src/ext/*
+src/main/webapp/v2_src/build
+target
+.idea
+.hg
+ora-create.sql
+ora-drop.sql

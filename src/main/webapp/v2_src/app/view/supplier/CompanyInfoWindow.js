@@ -1,0 +1,37 @@
+Ext.define('Base.view.supplier.CompanyInfoWindow',{
+    extend:'Ext.window.Window',
+    alias:'widget.companyinfowindow',
+    requires:[
+        'Base.view.account.AccountGrid'
+    ],
+    title:'公司信息',
+    width:800,
+    //height:700,
+    //maximizable:true,//最大化窗口
+    //maximized:true,
+    //modal:true,
+    //closable: true,
+    layout:'fit',
+    //border:false,
+    items:[
+        {
+            xtype:'tabpanel',
+            //region:'center',
+            items:[
+                {
+                    title:'主记录1',
+                    xtype:'accountgrid'
+                },
+                {
+                    title:'主记录2'
+                    //xtype:'accountgrid'
+                },
+                {
+                    title:'主记录3'
+                    //xtype:'accountgrid'
+                }
+            ]
+        }
+    ]
+});
+
